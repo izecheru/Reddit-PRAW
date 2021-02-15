@@ -47,10 +47,8 @@ limit_ = '' # this is simply the number of images that will be downloaded
 ## Changes i have in mind for future updates
 * Filter subreddit posts by New/ Top
 * Download images uploaded on a specific date
+* Check if subreddit exists
 * Donwload images with certain number of upvotes
 * Many more...
-
-
-
 
 
