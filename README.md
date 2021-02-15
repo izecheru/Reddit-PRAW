@@ -1,26 +1,30 @@
-<h1 align="center">Hi 👋, I'm Ionut Zecheru</h1>
-<h3 align="center">A handicapat who has internet from erce esi.</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=zecheruionut&label=Profile%20views&color=0e75b6&style=flat" alt="zecheruionut" /> </p>
-
 # Reddit PRAW
 
 This script can be used to download the images from a specific subreddit.
 
-## Installation
+# Installation
 
 
-Install from Visual Studio package manager.
-![Alt text](https://ibb.co/X34xNmc)
+### Install from Visual Studio package manager.
+![Alt text](https://i.imgur.com/EBh6hMR.png)
 
 ```bash
 pip install praw
 ```
 
 ### Before you go knee deep in the code, you must register in [reddit apps](https://www.reddit.com/prefs/apps)
-#### ![alt text](https://ibb.co/7nsJVSQ)
-
-## Usage
+#### ![alt text](https://i.imgur.com/p6ZUIOe.png)
+You must get those values for the script to work.
+# Do not make them public!!!
+```python
+def log_in():
+    reddit = praw.Reddit(client_id = 'the code under personal use script',
+                         client_secret = 'the secret is the longer code',
+                         username = 'obvious',
+                         password = 'pass',
+                         user_agent = 'your username')
+```
+# Usage
 
 ```python
 import praw
@@ -38,7 +42,6 @@ limit_ = '' # this is simply the number of images that will be downloaded
 ## Changes i have in mind for future updates
 * Filter subreddit posts by New/ Top
 * Download images uploaded on a specific date
-* 
+* Donwload images with certain number of upvotes
+* Many more...
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
