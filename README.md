@@ -13,6 +13,7 @@ This script can be used to download the images from a specific subreddit.
 
 ```bash
 pip install praw
+or just praw and it will give you the option with pip
 ```
 
 ### Before you go knee deep in the code, you must register in [reddit apps](https://www.reddit.com/prefs/apps)
@@ -40,11 +41,16 @@ subreddit_target = '' # here you must specify the subreddit that you want to tak
 
 limit_ = '' # this is simply the number of images that will be downloaded
 ```
-
+#### Note that the script won't download the same image twice.
+#### It will give a certain message in the console.
 
 ## Changes i have in mind for future updates
 * Filter subreddit posts by New/ Top
 * Download images uploaded on a specific date
 * Donwload images with certain number of upvotes
 * Many more...
+
+
+
+
 
