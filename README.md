@@ -1,3 +1,6 @@
+<h1 align="center">Hi 👋, I'm Ionut Zecheru</h1>
+<h3 align="center">A handicapat who has internet from erce esi.</h3>
+
 # Reddit PRAW
 
 This script can be used to download the images from a specific subreddit.
