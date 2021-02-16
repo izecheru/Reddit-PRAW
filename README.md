@@ -4,7 +4,8 @@
 
 # Reddit PRAW
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FzecheruIonut%2FReddit-PRAW&count_bg=%239DAC91&title_bg=%23555555&icon=&icon_color=%23DD0000&title=Views&edge_flat=false)](https://hits.seeyoufarm.com)
-This script can be used to download the images from a specific subreddit.
+
+# This script can be used to download the images from a specific subreddit.
 
 # Installation
 
