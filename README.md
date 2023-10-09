@@ -1,7 +1,4 @@
 
-<h1 align="center">Hi 👋, I'm Ionut Zecheru</h1>
-<h3 align="center">A handicapat who has internet from erce esi.</h3>
-
 # Reddit PRAW
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FzecheruIonut%2FReddit-PRAW&count_bg=%239DAC91&title_bg=%23555555&icon=&icon_color=%23DD0000&title=Views&edge_flat=false)](https://hits.seeyoufarm.com)
 
@@ -18,7 +15,7 @@ pip install praw
 or just praw and it will give you the option with pip
 ```
 
-### Before you go knee deep in the code, you must register in [reddit apps](https://www.reddit.com/prefs/apps)
+### Before you use the code, you must register in [reddit apps](https://www.reddit.com/prefs/apps)
 #### ![alt text](https://i.imgur.com/p6ZUIOe.png)
 You must get those values for the script to work.
 # Do not make them public!!!
@@ -46,11 +43,5 @@ limit_ = '' # this is simply the number of images that will be downloaded
 #### Note that the script won't download the same image twice.
 #### It will give a certain message in the console.
 
-## Changes i have in mind for future updates
-* Filter subreddit posts by New/ Top
-* Download images uploaded on a specific date
-* Check if subreddit exists
-* Donwload images with certain number of upvotes
-* Many more...
 
 
