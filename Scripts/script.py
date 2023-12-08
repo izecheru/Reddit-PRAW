@@ -2,8 +2,6 @@ import praw
 import requests
 import os
 
-
-
 # Folderul in care se salveaza pozele daca nu sunt deja descarcate
 download_folder = ''
 
@@ -12,9 +10,6 @@ subreddit_target = ''
 
 # Numarul de poze pe care vrei sa le descarci
 limit_ = 5
-
-
-
 
 def log_in():
     reddit = praw.Reddit(client_id = '',
@@ -38,9 +33,6 @@ def to_create(up, name):
         created.append(str(up[i])+'-'+str(name[i]).split('/')[-1])
     return created
 
-
-
-
 reddit = log_in()
 subreddit = reddit.subreddit(subreddit_target)
 hot_sub = subreddit.hot(limit = limit_)
@@ -48,13 +40,10 @@ hot_sub = subreddit.hot(limit = limit_)
 up =[]
 name = []
 
-
 for submission in hot_sub:
     if str(submission.url).find('jpg')!=-1:
         name.append(submission.url)
         up.append(submission.ups)
-
-
 
 def sort(lista):
     for j in range(0, len(lista)):
@@ -62,6 +51,7 @@ def sort(lista):
                 if lista[i] > lista[i+1]:
                     lista[i+1], lista[i] = lista[i], lista[i+1]
                     name[i+1], name[i] = name[i], name[i+1]
+
 def init():
 
     if len(name)>2:
@@ -78,13 +68,10 @@ def init():
         except:
             print("Cel mai probabil are ceva cacat de emoji.")
 
-
-
 def exists(to_look_for):
     path_ =  str(download_folder)+str(to_look_for)
     if os.path.exists(path_)==True:
         return True
     return False
-
 
 init()
